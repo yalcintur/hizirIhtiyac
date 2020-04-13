@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D10B42324439E3B006748B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D10B42224439E3A006748B2 /* GoogleService-Info.plist */; };
+		1DDF8F0C24435E27004B7B96 /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF8F0B24435E26004B7B96 /* ArtistModel.swift */; };
+		1DDF8F0E2443687B004B7B96 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF8F0D2443687B004B7B96 /* ViewControllerTableViewCell.swift */; };
+		DA42EE5A2442351100DC64C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA42EE592442351100DC64C9 /* AppDelegate.swift */; };
+		DA42EE5C2442351100DC64C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA42EE5B2442351100DC64C9 /* SceneDelegate.swift */; };
+		DA42EE5E2442351100DC64C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA42EE5D2442351100DC64C9 /* ViewController.swift */; };
+		DA42EE612442351100DC64C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA42EE5F2442351100DC64C9 /* Main.storyboard */; };
+		DA42EE632442351200DC64C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA42EE622442351200DC64C9 /* Assets.xcassets */; };
+		DA42EE662442351200DC64C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA42EE642442351200DC64C9 /* LaunchScreen.storyboard */; };
+		DA42EE722442838B00DC64C9 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA42EE712442838B00DC64C9 /* MainVC.swift */; };
+		DA42EE7424431E4300DC64C9 /* NeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA42EE7324431E4300DC64C9 /* NeedVC.swift */; };
+		DA8FEA822443DD0B005CCA64 /* BaslangicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8FEA812443DD0B005CCA64 /* BaslangicVC.swift */; };
+		DA8FEA842443DEBA005CCA64 /* bGirisVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8FEA832443DEBA005CCA64 /* bGirisVC.swift */; };
+		DA8FEA862443E228005CCA64 /* BakanlikVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8FEA852443E228005CCA64 /* BakanlikVC.swift */; };
+		FF4AB6191A17CE1E0641C433 /* Pods_Hizir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADF6C87EE00E6A749DDA9B1 /* Pods_Hizir.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D10B42224439E3A006748B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1DDF8F0B24435E26004B7B96 /* ArtistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
+		1DDF8F0D2443687B004B7B96 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		3ADF6C87EE00E6A749DDA9B1 /* Pods_Hizir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hizir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8744A4E7AFE17A3C1B008CD1 /* Pods-Hizir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hizir.debug.xcconfig"; path = "Target Support Files/Pods-Hizir/Pods-Hizir.debug.xcconfig"; sourceTree = "<group>"; };
+		9D657A4D4BB1F865695E8AD3 /* Pods-Hizir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hizir.release.xcconfig"; path = "Target Support Files/Pods-Hizir/Pods-Hizir.release.xcconfig"; sourceTree = "<group>"; };
+		DA2F1B902443A51700508F1C /* FirebaseCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FirebaseCore.h; path = Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore.h; sourceTree = SOURCE_ROOT; };
+		DA42EE562442351100DC64C9 /* Hizir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hizir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA42EE592442351100DC64C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA42EE5B2442351100DC64C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DA42EE5D2442351100DC64C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA42EE602442351100DC64C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA42EE622442351200DC64C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA42EE652442351200DC64C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA42EE672442351200DC64C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA42EE712442838B00DC64C9 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		DA42EE7324431E4300DC64C9 /* NeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedVC.swift; sourceTree = "<group>"; };
+		DA8FEA812443DD0B005CCA64 /* BaslangicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaslangicVC.swift; sourceTree = "<group>"; };
+		DA8FEA832443DEBA005CCA64 /* bGirisVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bGirisVC.swift; sourceTree = "<group>"; };
+		DA8FEA852443E228005CCA64 /* BakanlikVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakanlikVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA42EE532442351100DC64C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4AB6191A17CE1E0641C433 /* Pods_Hizir.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B413D660E48293453E4D7DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ADF6C87EE00E6A749DDA9B1 /* Pods_Hizir.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA1FCA77573C781F72AEF367 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8744A4E7AFE17A3C1B008CD1 /* Pods-Hizir.debug.xcconfig */,
+				9D657A4D4BB1F865695E8AD3 /* Pods-Hizir.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA42EE4D2442351100DC64C9 = {
+			isa = PBXGroup;
+			children = (
+				DA42EE582442351100DC64C9 /* Hizir */,
+				DA42EE572442351100DC64C9 /* Products */,
+				AA1FCA77573C781F72AEF367 /* Pods */,
+				5B413D660E48293453E4D7DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA42EE572442351100DC64C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA42EE562442351100DC64C9 /* Hizir.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA42EE582442351100DC64C9 /* Hizir */ = {
+			isa = PBXGroup;
+			children = (
+				DA2F1B902443A51700508F1C /* FirebaseCore.h */,
+				DA42EE592442351100DC64C9 /* AppDelegate.swift */,
+				DA42EE5B2442351100DC64C9 /* SceneDelegate.swift */,
+				DA42EE5D2442351100DC64C9 /* ViewController.swift */,
+				DA42EE5F2442351100DC64C9 /* Main.storyboard */,
+				DA42EE622442351200DC64C9 /* Assets.xcassets */,
+				DA42EE642442351200DC64C9 /* LaunchScreen.storyboard */,
+				1D10B42224439E3A006748B2 /* GoogleService-Info.plist */,
+				DA42EE672442351200DC64C9 /* Info.plist */,
+				1DDF8F0D2443687B004B7B96 /* ViewControllerTableViewCell.swift */,
+				DA42EE712442838B00DC64C9 /* MainVC.swift */,
+				DA42EE7324431E4300DC64C9 /* NeedVC.swift */,
+				1DDF8F0B24435E26004B7B96 /* ArtistModel.swift */,
+				DA8FEA812443DD0B005CCA64 /* BaslangicVC.swift */,
+				DA8FEA832443DEBA005CCA64 /* bGirisVC.swift */,
+				DA8FEA852443E228005CCA64 /* BakanlikVC.swift */,
+			);
+			path = Hizir;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA42EE552442351100DC64C9 /* Hizir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA42EE6A2442351200DC64C9 /* Build configuration list for PBXNativeTarget "Hizir" */;
+			buildPhases = (
+				51422BB9BC51F65CD3699CB7 /* [CP] Check Pods Manifest.lock */,
+				DA42EE522442351100DC64C9 /* Sources */,
+				DA42EE532442351100DC64C9 /* Frameworks */,
+				DA42EE542442351100DC64C9 /* Resources */,
+				9B7721FCA9AD79D8844370D2 /* [CP] Embed Pods Frameworks */,
+				2A75170B1044A407035E779B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hizir;
+			productName = Hizir;
+			productReference = DA42EE562442351100DC64C9 /* Hizir.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA42EE4E2442351100DC64C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = inocom;
+				TargetAttributes = {
+					DA42EE552442351100DC64C9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DA42EE512442351100DC64C9 /* Build configuration list for PBXProject "Hizir" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA42EE4D2442351100DC64C9;
+			productRefGroup = DA42EE572442351100DC64C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA42EE552442351100DC64C9 /* Hizir */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA42EE542442351100DC64C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA42EE662442351200DC64C9 /* LaunchScreen.storyboard in Resources */,
+				1D10B42324439E3B006748B2 /* GoogleService-Info.plist in Resources */,
+				DA42EE632442351200DC64C9 /* Assets.xcassets in Resources */,
+				DA42EE612442351100DC64C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A75170B1044A407035E779B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hizir/Pods-Hizir-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hizir/Pods-Hizir-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hizir/Pods-Hizir-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51422BB9BC51F65CD3699CB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hizir-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B7721FCA9AD79D8844370D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hizir/Pods-Hizir-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hizir/Pods-Hizir-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hizir/Pods-Hizir-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA42EE522442351100DC64C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA42EE5E2442351100DC64C9 /* ViewController.swift in Sources */,
+				DA8FEA822443DD0B005CCA64 /* BaslangicVC.swift in Sources */,
+				DA42EE7424431E4300DC64C9 /* NeedVC.swift in Sources */,
+				DA42EE722442838B00DC64C9 /* MainVC.swift in Sources */,
+				DA42EE5A2442351100DC64C9 /* AppDelegate.swift in Sources */,
+				DA8FEA842443DEBA005CCA64 /* bGirisVC.swift in Sources */,
+				1DDF8F0C24435E27004B7B96 /* ArtistModel.swift in Sources */,
+				DA42EE5C2442351100DC64C9 /* SceneDelegate.swift in Sources */,
+				1DDF8F0E2443687B004B7B96 /* ViewControllerTableViewCell.swift in Sources */,
+				DA8FEA862443E228005CCA64 /* BakanlikVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA42EE5F2442351100DC64C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA42EE602442351100DC64C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA42EE642442351200DC64C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA42EE652442351200DC64C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA42EE682442351200DC64C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA42EE692442351200DC64C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA42EE6B2442351200DC64C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8744A4E7AFE17A3C1B008CD1 /* Pods-Hizir.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7D9MG7992W;
+				INFOPLIST_FILE = Hizir/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inocom.Hizir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA42EE6C2442351200DC64C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D657A4D4BB1F865695E8AD3 /* Pods-Hizir.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7D9MG7992W;
+				INFOPLIST_FILE = Hizir/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inocom.Hizir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA42EE512442351100DC64C9 /* Build configuration list for PBXProject "Hizir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA42EE682442351200DC64C9 /* Debug */,
+				DA42EE692442351200DC64C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA42EE6A2442351200DC64C9 /* Build configuration list for PBXNativeTarget "Hizir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA42EE6B2442351200DC64C9 /* Debug */,
+				DA42EE6C2442351200DC64C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA42EE4E2442351100DC64C9 /* Project object */;
+}

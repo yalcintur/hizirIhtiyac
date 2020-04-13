@@ -1,0 +1,6 @@
+framework module Pods_Hizir {
+  umbrella header "Pods-Hizir-umbrella.h"
+
+  export *
+  module * { export * }
+}
