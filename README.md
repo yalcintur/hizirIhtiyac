@@ -13,7 +13,7 @@ Credentials for health staff login:
 
 ygzdvr@gmail.com 987654321
 
-Yağız Devre Tigers: hdevre22@my.uaa.k12.tr 123456789
+hdevre22@my.uaa.k12.tr 123456789
 
 ozdevre@gmail.com 112358132
 
